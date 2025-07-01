@@ -8,5 +8,6 @@
     "access_widener_version": "2.1.0",
     "jetbrains_annotations_version": "26.0.2",
     "sat4j_version": "2.3.1",
-    "berry_api_ver": "0.4.0"
+    "berry_api_ver": "0.4.0",
+    "fancymodloader_version": "9.0.4"
 }

@@ -1,5 +1,5 @@
 {
-    "repos": [ "https://maven.fabricmc.net/" ],
+    "repos": [ "https://maven.fabricmc.net/" ,"https://maven.neoforged.net/releases/"],
     "output_mod": "main",
     "packages": {
         "main": {
@@ -33,7 +33,9 @@
             "net.fabricmc:intermediary:${minecraft_version}",
             "org.jetbrains:annotations:${jetbrains_annotations_version}",
             "org.sat4j:org.sat4j.pb:${sat4j_version}",
-            "org.sat4j:org.sat4j.core:${sat4j_version}"
+            "org.sat4j:org.sat4j.core:${sat4j_version}",
+            "net.neoforged.fancymodloader:loader:${fancymodloader_version}",
+            "net.neoforged.fancymodloader:securejarhandler:${fancymodloader_version}"
         ]
     },
     "runs": {

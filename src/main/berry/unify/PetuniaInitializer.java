@@ -4,6 +4,7 @@ import berry.loader.BerryModInitializer;
 import berry.loader.JarContainer;
 import berry.unify.fabric.BerryFabricLauncher;
 import berry.utils.StringSorter;
+import cpw.mods.modlauncher.Launcher;
 
 public class PetuniaInitializer implements BerryModInitializer {
     static JarContainer thisjar;
@@ -18,5 +19,7 @@ public class PetuniaInitializer implements BerryModInitializer {
     public void initialize (String[] argv) {
         // Fabric
         new BerryFabricLauncher ();
+        // NeoForge
+        new Launcher();
     }
 }
